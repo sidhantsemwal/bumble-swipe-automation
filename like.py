@@ -7,7 +7,7 @@ import time
 
 def like(driver:webdriver):
     max_likes = constants.MAX_LIKES
-    timeout=10
+    timeout=5
     count=0
     while count < max_likes:
         like_button = WebDriverWait(driver,timeout).until(expected_conditions.visibility_of_element_located((By.CLASS_NAME,"encounters-action--like")))
