@@ -5,7 +5,8 @@ This script automates the right swipe action on people that appear in your Bumbl
 
 ## Installation Instructions
 1. Ensure you have Python installed on your system.
-2. Install the required pip packages listed in `requirements.txt`:
+2. This script only works if you have a facebook account, since the login process could only be automated through facebook login.
+3. Install the required pip packages listed in `requirements.txt`:
 
    ```bash
    pip install -r requirements.txt
